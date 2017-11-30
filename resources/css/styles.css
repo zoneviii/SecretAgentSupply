@@ -178,10 +178,26 @@ body {
   line-height: 1.4rem;
   padding: 0.5rem 0rem;
 }
-
 /* end products */
 
 /* contact */
+.contact {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 3rem;
+}
+
+.location {
+  width: 35%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.location-tite {}
 
 /* end contact */
 
