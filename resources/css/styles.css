@@ -8,22 +8,41 @@ body {
   color: black;
 }
 
+.site-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* logo area */
-logo {
+.logo {
   background-color: black;
   width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
-logo img {
+.logo-container {
+  width: 960px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo img {
   height: 1.5rem;
   width: auto;
-  padding-left: 0.5rem;
+  padding: 0.66rem 0.5rem 0.66rem 0rem;
 }
 
-logo a {
+.logo a {
   font-size: 1rem;
   text-decoration: none;
   color: white;
-  padding: .66rem 0rem .66rem 1rem;
+  padding: 0.66rem 0rem 0.66rem 1rem;
 }
 /* end logo area */
