@@ -93,3 +93,35 @@ body {
   font-size: 1rem;
   font-weight: bold;
 }
+/* end hero image */
+
+/* navigation */
+.navigation {
+  width: 100%;
+  background-color: firebrick;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navlink {
+  width: 960px;
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0rem;
+}
+
+.nav-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlink span a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
