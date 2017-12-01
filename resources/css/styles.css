@@ -148,7 +148,7 @@ body {
 
 .product-box {
   width: 30%;
-  margin: 0 auto;
+  margin: auto 0;
   display: inline-block;
 }
 
@@ -201,20 +201,71 @@ body {
   width: 960px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-direction: row;
   padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 .location {
   width: 35%;
-  margin: 0 auto;
   display: inline-block;
 }
 
-.location-tite {}
+.location-title {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.location-title h2 {
+  color: white;
+  text-align: left;
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+.location-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.location-content p {
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.hours {
+  width: 35%;
+  display: inline-block;
+}
+
+.hour-title {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hour-title h2 {
+  color: white;
+  text-align: left;
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+.hour-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hour-content p {
+  text-align: left;
+  line-height: 1.5rem;
+}
 /* end contact */
 
 /* end main container */
