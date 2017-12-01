@@ -129,6 +129,7 @@ body {
 
 /* main container */
 .main.container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -271,5 +272,25 @@ body {
 /* end main container */
 
 /* footer */
+.footer-background {
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.footer-content {
+  width: 960px;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-content p {
+  text-align: left;
+  color: white;
+}
 /* end footer */
